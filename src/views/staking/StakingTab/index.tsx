@@ -276,14 +276,14 @@ const StakingTab: React.FunctionComponent<Props> = ({
             You can’t stake until {formatDate(stakingStarts ?? 0)}
           </p>
         )}
-        <Link
+        {/* <Link
           href={
             "https://pancakeswap.finance/?outputCurrency=0xF72148dc9dAdA4BbE10F338ee1449Ebab0EC777E"
           }
           target={"_blank"}
         >
           <div className={"text-base text-[#0B5CCA]"}>Get $NAVIX</div>
-        </Link>
+        </Link> */}
       </div>
       <Button
         disabled={
