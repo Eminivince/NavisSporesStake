@@ -278,7 +278,7 @@ const StakingTab: React.FunctionComponent<Props> = ({
         )}
         {/* <Link
           href={
-            "https://pancakeswap.finance/?outputCurrency=0xF72148dc9dAdA4BbE10F338ee1449Ebab0EC777E"
+            "https://pancakeswap.finance/?outputCurrency=0x5eAc29aD69093281C6440E6ac196bE4AAB07c4dE"
           }
           target={"_blank"}
         >
@@ -294,8 +294,7 @@ const StakingTab: React.FunctionComponent<Props> = ({
         loading={loadingStaking}
         size="small"
         className="min-w-[156px] h-[52px] hover:bg-[#0B5CCA] disabled:bg-[#ccc] text-white dark:text-[#fff] bg-[#0B5CCA] border-none rounded-[8px]
-         w-full text-base"
-      >
+         w-full text-base">
         {isNeedSwitch
           ? "Switch network"
           : isNeedApprove
