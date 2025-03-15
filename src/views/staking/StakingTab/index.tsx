@@ -143,7 +143,7 @@ const StakingTab: React.FunctionComponent<Props> = ({
           address: stakedToken?.address as Address,
           abi: erc20Abi,
           functionName: "approve",
-          args: [poolDetail.contract_address as Address, BigInt(MAX_INT)],
+          args: [poolDetail.contract_address as Address, BigInt(amountStake) * BigInt(10 ** 18)],
         });
         if (res) {
           refetchAllowance();
